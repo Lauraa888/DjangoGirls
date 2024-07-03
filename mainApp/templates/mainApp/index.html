@@ -1,0 +1,9 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+<p>проверка работы</p>
+
+<a href="{% url 'blog-index' %}" class="btn btn-primary btn-lg">Блог</a>
+
+{% include "mainApp/includes/some_html.html" %}
+{% endblock %}
